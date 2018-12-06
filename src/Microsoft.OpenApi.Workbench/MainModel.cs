@@ -187,8 +187,13 @@ namespace Microsoft.OpenApi.Workbench
                         RuleSet = ValidationRuleSet.GetDefaultRuleSet()
                     }
                 ).Read(stream, out var context);
+
                 stopwatch.Stop();
                 ParseTime = $"{stopwatch.ElapsedMilliseconds} ms";
+
+                var RuleSet2 = ValidationRuleSet.GetDefaultRuleSet();
+                var t = document.Paths.Validate(RuleSet2); ;
+                //var u = RuleSet2.Rules.Contains();
 
                 if (context.Errors.Count == 0)
                 {

@@ -213,6 +213,9 @@
   <data name="Validation_PathItemMustBeginWithSlash" xml:space="preserve">
     <value>The path item name '{0}' MUST begin with a slash.</value>
   </data>
+  <data name="Validation_PathNameMustBeginWithSlashAndEtc" xml:space="preserve">
+    <value>The path item name '{0}' MUST begin with a slash and Etc</value>
+  </data>
   <data name="Validation_RuleAddTwice" xml:space="preserve">
     <value>The same rule cannot be in the same rule set twice.</value>
   </data>

@@ -35,5 +35,22 @@ namespace Microsoft.OpenApi.Validations.Rules
                 });
 
         // add more rules
+        public static ValidationRule<OpenApiPaths> PathNameMustBeginWithSlashAndEtc =>
+            new ValidationRule<OpenApiPaths>(
+        (context, item) =>
+        {
+            foreach (var pathName in item.Keys)
+            {
+                context.Enter(pathName);
+
+                if (pathName == null || !pathName.StartsWith("/sstr"))
+                {
+                    context.CreateError(nameof(PathNameMustBeginWithSlashAndEtc),
+                        string.Format(SRResource.Validation_PathNameMustBeginWithSlashAndEtc, pathName));
+                }
+
+                context.Exit();
+            }
+        });
     }
 }

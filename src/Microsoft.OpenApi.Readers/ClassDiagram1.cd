@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Microsoft.OpenApi.Readers.ParseNodes.AnyFieldMap&lt;T&gt;">
+    <Position X="15.5" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParseNodes\AnyFieldMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Readers.ParseNodes.AnyFieldMapParameter&lt;T&gt;">
+    <Position X="15.75" Y="7.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParseNodes\AnyFieldMapParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Readers.ParseNodes.AnyListFieldMap&lt;T&gt;">
+    <Position X="15.5" Y="4.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParseNodes\AnyListFieldMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Readers.ParseNodes.AnyListFieldMapParameter&lt;T&gt;">
+    <Position X="9.75" Y="2.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParseNodes\AnyListFieldMapParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Readers.ParseNodes.AnyMapFieldMap&lt;T, U&gt;">
+    <Position X="15.5" Y="3" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParseNodes\AnyMapFieldMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Readers.ParseNodes.AnyMapFieldMapParameter&lt;T, U&gt;">
+    <Position X="11.5" Y="7.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEgAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParseNodes\AnyMapFieldMapParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Readers.ParseNodes.FixedFieldMap&lt;T&gt;">
+    <Position X="20" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParseNodes\FixedFieldMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Readers.ParseNodes.ListNode">
+    <Position X="2.25" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAABAAAAAAAACAAAIAACAEAAEAAAAAAAA=</HashCode>
+      <FileName>ParseNodes\ListNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.OpenApi.Readers.ParseNodes.MapNode">
+    <Position X="5.25" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAgAABAAgACAEBBACAAAAAAAAAAAAAgEAAAAAAAAEAA=</HashCode>
+      <FileName>ParseNodes\MapNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.OpenApi.Readers.ParseNodes.OpenApiAnyConverter">
+    <Position X="11.5" Y="9.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParseNodes\OpenApiAnyConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Readers.ParseNodes.ParseNode">
+    <Position X="3.25" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>EAgAAAAAAgCQEAAAAAAAAACAAAIAAGgAAAAAAAAAEAg=</HashCode>
+      <FileName>ParseNodes\ParseNode.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Diagnostic" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Readers.ParseNodes.PatternFieldMap&lt;T&gt;">
+    <Position X="20" Y="5.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParseNodes\PatternFieldMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Readers.ParseNodes.PropertyNode">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAACAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>ParseNodes\PropertyNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Readers.ParseNodes.RootNode">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParseNodes\RootNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Readers.ParseNodes.ValueNode">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAABAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParseNodes\ValueNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Readers.Services.OpenApiReferenceResolver">
+    <Position X="0.5" Y="16.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAABAAQQAAAACAIAAAAABQAAAEAAAAAAABAA=</HashCode>
+      <FileName>Services\OpenApiReferenceResolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Readers.V2.RequestBodyReferenceFixer">
+    <Position X="3.75" Y="16.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>V2\OpenApiDocumentDeserializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Readers.OpenApiDiagnostic" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>OpenApiDiagnostic.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.OpenApi.Readers.OpenApiReaderSettings">
+    <Position X="0.75" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAgAAAAQAAA=</HashCode>
+      <FileName>OpenApiReaderSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Readers.OpenApiStreamReader" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="12.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAhAAAAAAgAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>OpenApiStreamReader.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_settings" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.OpenApi.Readers.OpenApiStringReader" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="12.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAhAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OpenApiStringReader.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_settings" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Microsoft.OpenApi.Readers.ParsingContext">
+    <Position X="12.25" Y="13.75" Width="6.5" />
+    <TypeIdentifier>
+      <HashCode>AAAwBBASAAACAAIAYAAEAAAAEMAAAEAiAAAACAAQAAA=</HashCode>
+      <FileName>ParsingContext.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_versionService" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Readers.YamlHelper">
+    <Position X="11.5" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>YamlHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Services.OpenApiVisitorBase" Collapsed="true">
+    <Position X="3" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="Microsoft.OpenApi.Readers.Interface.IDiagnostic">
+    <Position X="7.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IDiagnostic.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.OpenApi.Readers.Interface.IOpenApiReader&lt;TInput, TDiagnostic&gt;">
+    <Position X="7.5" Y="11.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IOpenApiReader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.OpenApi.Readers.Interface.IOpenApiVersionService">
+    <Position X="7.5" Y="13.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAACAAAAQAAA=</HashCode>
+      <FileName>Interface\IOpenApiVersionService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Microsoft.OpenApi.Readers.ReferenceResolutionSetting">
+    <Position X="11.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAABAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>OpenApiReaderSettings.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

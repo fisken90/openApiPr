@@ -317,7 +317,8 @@ namespace Microsoft.OpenApi.Properties {
         /// </summary>
         internal static string Validation_CompositeSchemaRequiredFieldListMustContainThePropertySpecifiedInTheDiscriminator {
             get {
-                return ResourceManager.GetString("Validation_CompositeSchemaRequiredFieldListMustContainThePropertySpecifiedInTheDiscriminator", resourceCulture);
+                return ResourceManager.GetString("Validation_CompositeSchemaRequiredFieldListMustContainThePropertySpecifiedInTheDi" +
+                        "scriminator", resourceCulture);
             }
         }
         
@@ -345,6 +346,15 @@ namespace Microsoft.OpenApi.Properties {
         internal static string Validation_PathItemMustBeginWithSlash {
             get {
                 return ResourceManager.GetString("Validation_PathItemMustBeginWithSlash", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The path item name &apos;{0}&apos; MUST begin with a slash and Etc.
+        /// </summary>
+        internal static string Validation_PathNameMustBeginWithSlashAndEtc {
+            get {
+                return ResourceManager.GetString("Validation_PathNameMustBeginWithSlashAndEtc", resourceCulture);
             }
         }
         
