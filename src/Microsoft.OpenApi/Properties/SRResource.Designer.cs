@@ -350,15 +350,6 @@ namespace Microsoft.OpenApi.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The path item name &apos;{0}&apos; MUST begin with a slash and Etc.
-        /// </summary>
-        internal static string Validation_PathNameMustBeginWithSlashAndEtc {
-            get {
-                return ResourceManager.GetString("Validation_PathNameMustBeginWithSlashAndEtc", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to The same rule cannot be in the same rule set twice..
         /// </summary>
         internal static string Validation_RuleAddTwice {

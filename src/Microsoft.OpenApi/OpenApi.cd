@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Microsoft.OpenApi.Models.OpenApiConstants">
+    <Position X="27.75" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>paagiADYAjVnCPVQCIcwpgwfnCkAfNAiDZQ8QkTDyCo=</HashCode>
+      <FileName>Models\OpenApiConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Models.OpenApiContact" BaseTypeListCollapsed="true">
+    <Position X="17" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAYAAQAAEAAAAAACAgAAAAAAAA=</HashCode>
+      <FileName>Models\OpenApiContact.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.OpenApi.Models.OpenApiDocument" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAIAAAAAIEBAAAYAAAAAAAAAEAAEBgAAEAAAAA=</HashCode>
+      <FileName>Models\OpenApiDocument.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Info" />
+      <Property Name="Paths" />
+      <Property Name="Extensions" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.OpenApi.Models.OpenApiError">
+    <Position X="54" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAEAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Models\OpenApiError.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Models.OpenApiExtensibleDictionary&lt;T&gt;">
+    <Position X="10.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Models\OpenApiExtensibleDictionary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.OpenApi.Models.OpenApiInfo" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAgAEAACAAYAAAAAAAAAAAAAAwAAAAACAA=</HashCode>
+      <FileName>Models\OpenApiInfo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Contact" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.OpenApi.Models.OpenApiPathItem" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAACIAAgAAAAAAAYAAAAAAAAAAAAAJgAAAAAAAA=</HashCode>
+      <FileName>Models\OpenApiPathItem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Extensions" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.OpenApi.Models.OpenApiPaths">
+    <Position X="6.75" Y="3.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\OpenApiPaths.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Models.OpenApiResponses">
+    <Position X="10.25" Y="3.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\OpenApiResponses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Extensions.EnumExtensions">
+    <Position X="20.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\EnumExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Extensions.OpenApiElementExtensions">
+    <Position X="20.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\OpenApiElementExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Extensions.OpenApiExtensibleExtensions">
+    <Position X="20.75" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Extensions\OpenApiExtensibleExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Extensions.OpenApiSerializableExtensions">
+    <Position X="20.75" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAACAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Extensions\OpenApiSerializableExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Extensions.StringExtensions">
+    <Position X="20.75" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Extensions\StringExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Models.OpenApiParameter">
+    <Position X="14" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggACQAgEgAAAAAAIYAAxEAAAAAAAABAiAQAAAQCA=</HashCode>
+      <FileName>Models\OpenApiParameter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.OpenApi.Models.OpenApiBodyParameter">
+    <Position X="18.25" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\OpenApiParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Models.OpenApiFormDataParameter">
+    <Position X="17.5" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\OpenApiParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Services.OpenApiComparer">
+    <Position X="57.25" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Services\OpenApiComparer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Services.OpenApiDifference">
+    <Position X="57.25" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\OpenApiDifference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Services.OpenApiVisitorBase">
+    <Position X="47.5" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAACAAQAQAAAAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Services\OpenApiVisitorBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CurrentKeys" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Services.OpenApiWalker">
+    <Position X="50.5" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAgAACAAEACABAgAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\OpenApiWalker.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_visitor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Services.CurrentKeys">
+    <Position X="44.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAgBAAAIAAAIIAAAAgAAAAQAAAAEAQAAAQAA=</HashCode>
+      <FileName>Services\OpenApiWalker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Validations.Rules.OpenApiDocumentRules">
+    <Position X="33.5" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validations\Rules\OpenApiDocumentRules.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="OpenApiDocumentFieldIsMissing" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Validations.Rules.OpenApiExtensibleRules">
+    <Position X="30.5" Y="8" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validations\Rules\OpenApiExtensionRules.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ExtensionNameMustStartWithXDash" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Validations.Rules.OpenApiInfoRules">
+    <Position X="36.25" Y="8" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validations\Rules\OpenApiInfoRules.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="InfoRequiredFields" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Validations.Rules.OpenApiPathsRules">
+    <Position X="38.25" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validations\Rules\OpenApiPathsRules.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PathNameMustBeginWithSlash" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Validations.Rules.OpenApiRuleAttribute">
+    <Position X="44.5" Y="15.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validations\Rules\OpenApiRuleAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Validations.OpenApiValidator">
+    <Position X="47.25" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAADAAQQAAAAAAAAAAAAAAAIAAAAAAAAgAAA=</HashCode>
+      <FileName>Validations\OpenApiValidator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_ruleSet" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.OpenApi.Validations.OpenApiValidatorError">
+    <Position X="54" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validations\OpenApiValidatorError.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Validations.ValidationContextExtensions">
+    <Position X="36" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validations\ValidationExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Validations.ValidationRule">
+    <Position X="34" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validations\ValidationRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Validations.ValidationRule&lt;T&gt;">
+    <Position X="34" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validations\ValidationRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Validations.ValidationRuleSet" BaseTypeListCollapsed="true">
+    <Position X="45" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgIBAAACBAAAABAAAAAAAkAAAAAAAAAEAAABAIAAAAA=</HashCode>
+      <FileName>Validations\ValidationRuleSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.OpenApi.Models.OpenApiReference">
+    <Position X="4.5" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gAACAAAAAAQAAQAAABCYGAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Models\OpenApiReference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.OpenApi.Any.OpenApiArray" BaseTypeListCollapsed="true">
+    <Position X="51.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Any\OpenApiArray.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AnyType" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.OpenApi.Any.OpenApiBinary">
+    <Position X="30.75" Y="17.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Any\OpenApiBinary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Any.OpenApiBoolean">
+    <Position X="35.25" Y="17.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Any\OpenApiBoolean.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Any.OpenApiByte">
+    <Position X="42" Y="17.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Any\OpenApiByte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Any.OpenApiDate">
+    <Position X="46.5" Y="17.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Any\OpenApiDate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Any.OpenApiDateTime">
+    <Position X="53.25" Y="17.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Any\OpenApiDateTime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Any.OpenApiDouble">
+    <Position X="33" Y="17.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Any\OpenApiDouble.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Any.OpenApiFloat">
+    <Position X="37.5" Y="17.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Any\OpenApiFloat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Any.OpenApiInteger">
+    <Position X="44.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Any\OpenApiInteger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Any.OpenApiLong">
+    <Position X="48.75" Y="17.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Any\OpenApiLong.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Any.OpenApiNull" BaseTypeListCollapsed="true">
+    <Position X="53" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Any\OpenApiNull.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AnyType" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.OpenApi.Any.OpenApiObject" BaseTypeListCollapsed="true">
+    <Position X="55.25" Y="14.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Any\OpenApiObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AnyType" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.255" />
+  </Class>
+  <Class Name="Microsoft.OpenApi.Any.OpenApiPassword">
+    <Position X="39.75" Y="17.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Any\OpenApiPassword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.OpenApi.Any.OpenApiPrimitive&lt;T&gt;">
+    <Position X="42" Y="14.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAgAAEIAAA=</HashCode>
+      <FileName>Any\OpenApiPrimitive.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AnyType" />
+      <Property Name="PrimitiveType" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.OpenApi.Any.OpenApiString">
+    <Position X="51" Y="17.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Any\OpenApiString.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Microsoft.OpenApi.Interfaces.IOpenApiElement">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IOpenApiElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.OpenApi.Interfaces.IOpenApiExtensible">
+    <Position X="0.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IOpenApiExtensible.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Extensions" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="Microsoft.OpenApi.Interfaces.IOpenApiExtension">
+    <Position X="5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Interfaces\IOpenApiExtension.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.OpenApi.Interfaces.IOpenApiReferenceable">
+    <Position X="2.25" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAABAAAAAAAAAAACAAAAAQAA=</HashCode>
+      <FileName>Interfaces\IOpenApiReferenceable.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Reference" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="Microsoft.OpenApi.Interfaces.IOpenApiSerializable">
+    <Position X="2.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IOpenApiSerializable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Collections.Generic.IDictionary&lt;TKey, TValue&gt;">
+    <Position X="7.25" Y="10.5" Width="2.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Microsoft.OpenApi.Validations.IValidationContext">
+    <Position X="57.25" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAgAAA=</HashCode>
+      <FileName>Validations\IValidationContext.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.OpenApi.Any.IOpenApiAny" Collapsed="true">
+    <Position X="44.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Any\IOpenApiAny.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Microsoft.OpenApi.Any.IOpenApiPrimitive" Collapsed="true">
+    <Position X="44.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Any\IOpenApiPrimitive.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Microsoft.OpenApi.Models.OperationType">
+    <Position X="9.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIBAAAAAAAAACAEAQBAAAAAAAABAAAg=</HashCode>
+      <FileName>Models\OperationType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.OpenApi.Models.ParameterLocation">
+    <Position X="11.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAABAAAAAAAAIAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ParameterLocation.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.OpenApi.Models.ParameterStyle">
+    <Position X="13.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAACAQgAAAAAAAAgEEAAAA=</HashCode>
+      <FileName>Models\ParameterStyle.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.OpenApi.Models.ReferenceType">
+    <Position X="15" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAABgAAAAAAIAAAAFAAAQAAAAAAAAQAAAQAA=</HashCode>
+      <FileName>Models\ReferenceType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.OpenApi.Models.SecuritySchemeType">
+    <Position X="23.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAACAAAAAAAgABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\SecuritySchemeType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.OpenApi.Models.CopyOfOperationType">
+    <Position X="16.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIBAAAAAAAAACAEAQBAAAAAAAABAAAg=</HashCode>
+      <FileName>Models\OperationType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.OpenApi.Models.CopyOfParameterLocation">
+    <Position X="18.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAABAAAAAAAAIAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ParameterLocation.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.OpenApi.Models.CopyOfParameterStyle">
+    <Position X="20.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAACAQgAAAAAAAAgEEAAAA=</HashCode>
+      <FileName>Models\ParameterStyle.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.OpenApi.Models.CopyOfReferenceType">
+    <Position X="22" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAABgAAAAAAIAAAAFAAAQAAAAAAAAQAAAQAA=</HashCode>
+      <FileName>Models\ReferenceType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.OpenApi.OpenApiFormat">
+    <Position X="25.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>OpenApiFormat.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.OpenApi.Any.AnyType">
+    <Position X="52.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAgAAAAAAAAAAAAAAAAAAIAAIAAAAA=</HashCode>
+      <FileName>Any\AnyType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Microsoft.OpenApi.Any.PrimitiveType">
+    <Position X="49" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAEAAQAAAAAAQAAAAAAABAACAgQDAAAAAAAgAAA=</HashCode>
+      <FileName>Any\IOpenApiPrimitive.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

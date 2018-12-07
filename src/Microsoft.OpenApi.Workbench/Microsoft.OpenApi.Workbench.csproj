@@ -123,6 +123,10 @@
     <Resource Include="Themes\Metro\HowToApplyTheme.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Primavera.OpenApiExtensions\Primavera.OpenApiExtensions.csproj">
+      <Project>{695a7853-e06c-48ce-beb1-9f55f4169891}</Project>
+      <Name>Primavera.OpenApiExtensions</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Microsoft.OpenApi.Readers\Microsoft.OpenApi.Readers.csproj">
       <Project>{79933258-0126-4382-8755-d50820ecc483}</Project>
       <Name>Microsoft.OpenApi.Readers</Name>

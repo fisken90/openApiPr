@@ -34,23 +34,26 @@ namespace Microsoft.OpenApi.Validations.Rules
                     }
                 });
 
-        // add more rules
-        public static ValidationRule<OpenApiPaths> PathNameMustBeginWithSlashAndEtc =>
-            new ValidationRule<OpenApiPaths>(
-        (context, item) =>
-        {
-            foreach (var pathName in item.Keys)
-            {
-                context.Enter(pathName);
+        //// add more rules
+        ///// <summary>
+        ///// A relative path to an individual endpoint. The field name MUST begin with a slash followed by pri string.
+        ///// </summary>
+        //public static ValidationRule<OpenApiPaths> PathNameMustBeginWithSlashAndEtc =>
+        //    new ValidationRule<OpenApiPaths>(
+        //(context, item) =>
+        //{
+        //    foreach (var pathName in item.Keys)
+        //    {
+        //        context.Enter(pathName);
 
-                if (pathName == null || !pathName.StartsWith("/sstr"))
-                {
-                    context.CreateError(nameof(PathNameMustBeginWithSlashAndEtc),
-                        string.Format(SRResource.Validation_PathNameMustBeginWithSlashAndEtc, pathName));
-                }
+        //        if (pathName == null || !pathName.StartsWith("/pri"))
+        //        {
+        //            context.CreateError(nameof(PathNameMustBeginWithSlashAndEtc),
+        //                string.Format(SRResource.Validation_PathNameMustBeginWithSlashAndEtc, pathName));
+        //        }
 
-                context.Exit();
-            }
-        });
+        //        context.Exit();
+        //    }
+        //});
     }
 }

@@ -37,6 +37,8 @@ namespace Microsoft.OpenApi.Validations.Rules
                             String.Format(SRResource.Validation_FieldIsRequired, "paths", "document"));
                     }
                     context.Exit();
+
+
                 });
     }
 }

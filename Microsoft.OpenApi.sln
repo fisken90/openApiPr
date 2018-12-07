@@ -25,7 +25,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6357D7FD-2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.OpenApi.SmokeTests", "test\Microsoft.OpenApi.SmokeTests\Microsoft.OpenApi.SmokeTests.csproj", "{AD79B61D-88CF-497C-9ED5-41AE3867C5AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.OpenApi.Pri", "src\Microsoft.OpenApi.Pri\Microsoft.OpenApi.Pri.csproj", "{ACB3ED42-5A47-4197-8D27-8C6C4B84FB18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.OpenApi.Pri", "src\Microsoft.OpenApi.Pri\Microsoft.OpenApi.Pri.csproj", "{ACB3ED42-5A47-4197-8D27-8C6C4B84FB18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Primavera.OpenApiExtensions", "Primavera.OpenApiExtensions\Primavera.OpenApiExtensions.csproj", "{695A7853-E06C-48CE-BEB1-9F55F4169891}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Primavera.OpenApiExtensions.Client", "Primavera.OpenApiExtensions.Client\Primavera.OpenApiExtensions.Client.csproj", "{DE9F09C5-B666-4D0E-B81F-4D5B80BF7EF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +65,14 @@ Global
 		{ACB3ED42-5A47-4197-8D27-8C6C4B84FB18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACB3ED42-5A47-4197-8D27-8C6C4B84FB18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACB3ED42-5A47-4197-8D27-8C6C4B84FB18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{695A7853-E06C-48CE-BEB1-9F55F4169891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{695A7853-E06C-48CE-BEB1-9F55F4169891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{695A7853-E06C-48CE-BEB1-9F55F4169891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{695A7853-E06C-48CE-BEB1-9F55F4169891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE9F09C5-B666-4D0E-B81F-4D5B80BF7EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE9F09C5-B666-4D0E-B81F-4D5B80BF7EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE9F09C5-B666-4D0E-B81F-4D5B80BF7EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE9F09C5-B666-4D0E-B81F-4D5B80BF7EF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +85,8 @@ Global
 		{1ED3C2C1-E1E7-4925-B4E6-2D969C3F5237} = {6357D7FD-2DE4-4900-ADB9-ABC37052040A}
 		{AD79B61D-88CF-497C-9ED5-41AE3867C5AC} = {6357D7FD-2DE4-4900-ADB9-ABC37052040A}
 		{ACB3ED42-5A47-4197-8D27-8C6C4B84FB18} = {E546B92F-20A8-49C3-8323-4B25BB78F3E1}
+		{695A7853-E06C-48CE-BEB1-9F55F4169891} = {E546B92F-20A8-49C3-8323-4B25BB78F3E1}
+		{DE9F09C5-B666-4D0E-B81F-4D5B80BF7EF2} = {E546B92F-20A8-49C3-8323-4B25BB78F3E1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9F171EFC-0DB5-4B10-ABFA-AF48D52CC565}

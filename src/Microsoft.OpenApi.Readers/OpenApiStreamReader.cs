@@ -38,7 +38,7 @@ namespace Microsoft.OpenApi.Readers
         /// <param name="input">Stream containing OpenAPI description to parse.</param>
         /// <param name="diagnostic">Returns diagnostic object containing errors detected during parsing</param>
         /// <returns>Instance of newly created OpenApiDocument</returns>
-        public OpenApiDocument Read(Stream input, out OpenApiDiagnostic diagnostic)
+        public virtual OpenApiDocument Read(Stream input, out OpenApiDiagnostic diagnostic)
         {
             ParsingContext context;
             YamlDocument yamlDocument;

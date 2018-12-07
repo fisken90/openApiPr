@@ -32,5 +32,24 @@ namespace Microsoft.OpenApi.Validations.Rules
                     }
                     context.Exit();
                 });
+
+        ///// <summary>
+        ///// Extension name MUST start with "x-pri".
+        ///// </summary>
+        //public static ValidationRule<IOpenApiExtensible> ExtensionNameMustStartWithXDashPri =>
+        //    new ValidationRule<IOpenApiExtensible>(
+        //(context, item) =>
+        //{
+        //    context.Enter("extensions");
+        //    foreach (var extensible in item.Extensions)
+        //    {
+        //        if (!extensible.Key.StartsWith("x-"))
+        //        {
+        //            context.CreateError(nameof(ExtensionNameMustStartWithXDashPri),
+        //                String.Format(SRResource.Validation_ExtensionNameMustBeginWithXDashPri, extensible.Key, context.PathString));
+        //        }
+        //    }
+        //    context.Exit();
+        //});
     }
 }

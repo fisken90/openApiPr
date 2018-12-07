@@ -11,6 +11,7 @@ using Microsoft.OpenApi.Models;
 using Microsoft.OpenApi.Readers;
 using Microsoft.OpenApi.Services;
 using Microsoft.OpenApi.Validations;
+using Microsoft.OpenApi.Validations.Rules;
 
 namespace Microsoft.OpenApi.Workbench
 {
@@ -181,12 +182,15 @@ namespace Microsoft.OpenApi.Workbench
                 var stopwatch = new Stopwatch();
                 stopwatch.Start();
 
-                var document = new OpenApiStreamReader(new OpenApiReaderSettings
-                    {
-                        ReferenceResolution = ReferenceResolutionSetting.ResolveLocalReferences,
-                        RuleSet = ValidationRuleSet.GetDefaultRuleSet()
-                    }
-                ).Read(stream, out var context);
+                var settings = new OpenApiReaderSettings
+                {
+                    ReferenceResolution = ReferenceResolutionSetting.ResolveLocalReferences,
+                    RuleSet = ValidationRuleSet.GetDefaultRuleSet()
+                };
+
+                settings.RuleSet.Add(Primavera.OpenApiExtensions.ValidationRules.PriOpenApiDocumentRules.FirstPrimavera);
+
+                var document = new OpenApiStreamReader(settings).Read(stream, out var context);
 
                 stopwatch.Stop();
                 ParseTime = $"{stopwatch.ElapsedMilliseconds} ms";
